@@ -1,0 +1,115 @@
+/* Variables */
+:root {
+    --bkg: #212121;
+    --txt-bkg: #1d1724;
+}
+
+* {
+    background-color: var(--bkg);
+    text-decoration: none;
+}
+
+.unna-regular {
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.unna-bold {
+    font-family: "Unna", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.unna-regular-italic {
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.unna-bold-italic {
+    font-family: "Unna", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.overpass-mono-regular {
+    font-family: "Overpass Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* From Uiverse.io by LightAndy1 */
+.package {
+    width: 200px;
+    height: 340px;
+    background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.package:hover {
+    box-shadow: 0px 0px 30px 1px rgba(204, 0, 255, 0.3);
+}
+
+.package2 {
+    width: 170px;
+    height: 310px;
+    background-color: var(--txt-bkg);
+    border-radius: 10px;
+    transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+    padding: 15px;
+    cursor: pointer;
+}
+
+.package2:hover {
+    transform: scale(0.98);
+    border-radius: 18px;
+}
+
+.text {
+    color: white;
+    font-size: 17px;
+}
+
+p, h1, h2, h3{
+    color: whitesmoke;
+}
+p{
+    background-color: var(--txt-bkg);
+}
+h1{
+    font-size:xx-large;
+}
+figure{
+    text-align: center;
+    margin: 10px;
+    margin-top: 3px;
+    background-color: var(--txt-bkg);
+}
+#contact{
+    display: flex;
+}
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+#contact img{
+    height: 30px;
+}
+#contact p{
+    background-color: var(--bkg);
+    font-size: 15px;
+}
+.contact-main div a{
+    display: flex;
+    align-items: center;
+}
+.contact-main div a img{
+    padding: 5px;
+}
